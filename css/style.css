@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 1277px;
+  display: inline-block;
+  margin: 0 auto;
+}
+header {
+  /* position: sticky;
+  top: 0;
+  z-index: 50;*/
+}
+.fixed {
+  width: 100%;
+}
+.logo {
+  margin: 16px 0 16px 12px;
+  float: left;
+  font-size: 27px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+li {
+  font-weight: 500;
+  font-size: 21px;
+  margin-left: 24px;
+  display: inline;
+  color: rgba(0, 0, 0, 1);
+}
+.socialin {
+  display: inline-block;
+}
+.socialinst {
+  margin: 0 19px;
+  display: inline-block;
+}
+.socialfb {
+  display: inline-block;
+}
+.all_menu {
+  margin-top: 16px;
+  display: inline-block;
+  float: right;
+}
+.menu {
+  display: inline-block;
+}
+.head-but {
+  margin-left: 32px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.but-main {
+  padding: 10px 16px 10px 16px;
+  font-size: 21px;
+  font-weight: 500;
+  color: #2203e4;
+  background-color: white;
+  border: 1px solid rgba(34, 3, 228, 1);
+}
+.main_write {
+  margin-bottom: 253px;
+  margin-left: 80px;
+  display: inline-block;
+}
+.main-phone {
+  top: 119px;
+  position: relative;
+  margin-left: 58px;
+  display: inline-block;
+}
+.write {
+  font-size: 47px;
+  font-weight: 700;
+}
+.amen {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main_but1 {
+  margin: 24px 24px 0 0;
+  background: #0062ff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 16px;
+  color: rgba(255, 255, 255, 1);
+  border: 0px;
+}
+.main_but2 {
+  background: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 16px;
+  color: rgba(87, 87, 87, 1);
+  border: 1px solid black;
+}
+.main_autor {
+  text-align: center;
+}
+.autor {
+  margin-bottom: -13px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.autor_amet {
+  font-size: 16px;
+  font-weight: 400;
+}
+.after_autor {
+  margin-top: 46px;
+}
+.smile_man {
+  position: relative;
+  top: -21px;
+  margin-right: 46px;
+  display: inline-block;
+}
+.mark_main {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  margin-right: 131px;
+}
+.mark1 {
+  font-weight: 600;
+  font-size: 27px;
+}
+.mark2 {
+  position: relative;
+  top: 33px;
+  right: 12px;
+  font-weight: 600;
+  font-size: 27px;
+}
+.graphic {
+  font-size: 16px;
+  font-weight: 400;
+}
+.gold_col {
+  position: relative;
+  top: -36px;
+  display: inline-block;
+}
+.gregory {
+  position: relative;
+  top: 47px;
+  color: rgba(222, 164, 5, 1);
+  font-size: 21px;
+  font-weight: 500;
+}
+.henry {
+  position: relative;
+  top: 13px;
+  color: rgba(222, 164, 5, 1);
+  font-size: 21px;
+  font-weight: 500;
+}
+.mark1::after {
+  content: "Graphic designer";
+  display: block;
+  font-size: 21px;
+  font-weight: 500;
+  color: rgba(87, 87, 87, 1);
+}
+.mark2::after {
+  content: "Graphic designer";
+  display: block;
+  position: relative;
+  right: -12px;
+  font-size: 21px;
+  font-weight: 500;
+  color: rgba(87, 87, 87, 1);
+}
+.mark2::before {
+  content: url("../img/Vector.png");
+  position: relative;
+  left: -2px;
+  bottom: -15px;
+}
+.gregory::after {
+  content: "Programmer";
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 190, 11, 1);
+}
+.henry::after {
+  content: "Analyst";
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 190, 11, 1);
+}
+.fixed1 {
+  margin-top: 100px;
+  padding-top: 71px;
+  width: 100%;
+  background-color: rgba(0, 98, 255, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.container1 {
+  text-align: center;
+  width: 1277px;
+  display: block;
+  margin: 0 auto;
+}
+.main_autor1 {
+  text-align: center;
+}
+.autor1 {
+  margin-bottom: -5px;
+  font-size: 36px;
+  font-weight: 600;
+}
+.main_student {
+  margin-top: 64px;
+  display: inline-block;
+}
+.peaple_smile {
+  display: inline-block;
+}
+.for_stidents {
+  text-align: left;
+  left: 34px;
+  position: relative;
+  top: -20px;
+  display: inline-block;
+}
+.for_stidents1 {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.for_stidents2 {
+  margin-bottom: 8px;
+}
+.secret_marg {
+  margin-left: 136px;
+}
+.but_forstudent {
+  margin: 64px auto 71px;
+  display: inline-block;
+}
+.main_but_forstudent {
+  padding: 10px 16px;
+  border: 1px solid rgba(34, 3, 228, 1);
+  color: rgba(34, 3, 228, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+.colon_demo {
+  margin-right: 48px;
+  display: inline-block;
+}
+.watch_video1 {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 500;
+}
+.col_video {
+  display: inline-block;
+}
+.secret_demo {
+  margin-top: 63px;
+  margin-bottom: 44px;
+}
+.secret_check {
+  margin-bottom: -4px;
+}
+.secret_container {
+  margin-bottom: 130px;
+}
+.all_opinion {
+  height: 499px;
+  background-color: rgba(255, 190, 11, 1);
+}
+.container2 {
+  overflow: hidden;
+  padding-top: 67px;
+  padding-bottom: 67px;
+  text-align: center;
+  width: 1277px;
+  display: block;
+  margin: 0 auto;
+}
+.main_opinopn1 {
+}
+.opinopn {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.jones_david1 {
+  margin-left: -736px;
+  display: inline-block;
+  opacity: 0.5;
+}
+.jones_david2 {
+  top: -271px;
+  display: inline-block;
+}
+.jones_david3 {
+  opacity: 0.5;
+  display: inline-block;
+  margin-right: -736px;
+}
+.iphone123 {
+  margin-top: 74px;
+  display: inline-block;
+}
+.stars5 {
+  vertical-align: top;
+  margin-top: 160px;
+  display: inline-block;
+}
+.stars52 {
+  color: rgba(0, 0, 0, 1);
+}
+.my_product {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(34, 3, 228, 1);
+}
+.but_stars1 {
+  border: 0;
+  background-color: rgba(0, 98, 255, 1);
+  padding: 10px 16px;
+  color: rgba(255, 255, 255, 1);
+}
+.amet_star {
+  color: rgba(87, 87, 87, 1);
+}
+.stars5 {
+  text-align: left;
+}
+.stars52 {
+  margin-bottom: 20px;
+}
+.my_product {
+  margin-bottom: 16px;
+}
+.but_stars1 {
+  margin-top: 16px;
+}
+.all_wait {
+  margin-top: 93px;
+}
+.main_wait {
+  color: #000000;
+  font-size: 27px;
+  font-weight: 600;
+}
+.mail_input1 {
+  margin: 0 auto 24px;
+  border: 0;
+  display: block;
+  padding: 25px 283px 26px 24px;
+  color: rgba(34, 3, 228, 1);
+  background: rgba(58, 134, 255, 0.2);
+  border-radius: 12px;
+}
+.main_sub {
+  font-weight: 400;
+  font-size: 16px;
+  margin: -11px auto 54px;
+  border: 0;
+  display: block;
+  padding: 10px 160.5px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 98, 255, 1);
+}

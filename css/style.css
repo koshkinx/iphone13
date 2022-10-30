@@ -12,8 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .container {
-  width: 1277px;
-  display: inline-block;
+  max-width: 1277px;
   margin: 0 auto;
 }
 header {
@@ -70,13 +69,13 @@ li {
   border: 1px solid rgba(34, 3, 228, 1);
 }
 .main_write {
-  margin-bottom: 253px;
+  vertical-align: top;
+  margin-top: 229px;
   margin-left: 80px;
   display: inline-block;
 }
 .main-phone {
-  top: 119px;
-  position: relative;
+  margin-top: 120px;
   margin-left: 58px;
   display: inline-block;
 }
@@ -106,6 +105,7 @@ li {
   border: 1px solid black;
 }
 .main_autor {
+  margin-top: 80px;
   text-align: center;
 }
 .autor {
@@ -120,26 +120,23 @@ li {
 .after_autor {
   margin-top: 46px;
 }
+.smile_all_mark {
+  float: left;
+}
 .smile_man {
-  position: relative;
-  top: -21px;
   margin-right: 46px;
   display: inline-block;
 }
 .mark_main {
-  position: relative;
-  top: -15px;
   display: inline-block;
-  margin-right: 131px;
 }
 .mark1 {
+  margin-bottom: -4px;
   font-weight: 600;
   font-size: 27px;
 }
 .mark2 {
-  position: relative;
-  top: 33px;
-  right: 12px;
+  margin: -12px;
   font-weight: 600;
   font-size: 27px;
 }
@@ -148,20 +145,16 @@ li {
   font-weight: 400;
 }
 .gold_col {
-  position: relative;
-  top: -36px;
+  margin-top: 9px;
+  float: right;
   display: inline-block;
 }
 .gregory {
-  position: relative;
-  top: 47px;
   color: rgba(222, 164, 5, 1);
   font-size: 21px;
   font-weight: 500;
 }
 .henry {
-  position: relative;
-  top: 13px;
   color: rgba(222, 164, 5, 1);
   font-size: 21px;
   font-weight: 500;
@@ -212,6 +205,7 @@ li {
   color: rgba(255, 255, 255, 1);
 }
 .container1 {
+  background-color: rgba(0, 98, 255, 1);
   text-align: center;
   width: 1277px;
   display: block;
@@ -226,6 +220,7 @@ li {
   font-weight: 600;
 }
 .main_student {
+  float: left;
   margin-top: 64px;
   display: inline-block;
 }
@@ -233,13 +228,13 @@ li {
   display: inline-block;
 }
 .for_stidents {
+  margin-left: 34px;
+  vertical-align: top;
   text-align: left;
-  left: 34px;
-  position: relative;
-  top: -20px;
   display: inline-block;
 }
 .for_stidents1 {
+  margin-top: 8px;
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -248,7 +243,7 @@ li {
   margin-bottom: 8px;
 }
 .secret_marg {
-  margin-left: 136px;
+  float: right;
 }
 .but_forstudent {
   margin: 64px auto 71px;
@@ -280,6 +275,7 @@ li {
   margin-bottom: -4px;
 }
 .secret_container {
+  background-color: white;
   margin-bottom: 130px;
 }
 .all_opinion {

@@ -299,19 +299,77 @@ li {
   margin-top: 0px;
   margin-bottom: 12px;
 }
-.jones_david1 {
-  margin-left: -736px;
+.think {
   display: inline-block;
-  opacity: 0.5;
+  vertical-align: top;
+  margin-top: 37px;
 }
-.jones_david2 {
-  top: -271px;
+.jones_star {
+  text-align: left;
   display: inline-block;
+}
+
+.main_david_star::after {
+  content: url(../img/Frame\ 36.png);
+  vertical-align: middle;
+  margin-left: 7px;
+}
+.main_david_star {
+  margin: 0;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 120%;
+  color: #000000;
+}
+.ceo {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 120%;
+  color: #000000;
+}
+.officia_consequat {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #575757;
+}
+.jones_david1 {
+  padding: 60px 60px 30px 16px;
+  display: inline-block;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+}
+
+.jones_david2::before {
+  content: url(../img/Frame\ 38.png);
+  position: absolute;
+  top: -18px;
+  left: -744px;
+  opacity: 0.45;
+}
+.jones_david2::after {
+  content: url(../img/Frame\ 38.png);
+  position: absolute;
+  top: -18px;
+  right: -761px;
+  opacity: 0.45;
+}
+
+.jones_david2 {
+  position: relative;
+  padding: 60px 60px 30px 16px;
+  display: inline-block;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
 }
 .jones_david3 {
-  opacity: 0.5;
+  padding: 60px 60px 30px 16px;
   display: inline-block;
-  margin-right: -736px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
 }
 .iphone123 {
   margin-top: 74px;
@@ -324,6 +382,12 @@ li {
 }
 .stars52 {
   color: rgba(0, 0, 0, 1);
+}
+.stars52::before {
+  position: relative;
+  content: url("../img/Frame\ 36.png");
+  left: -2px;
+  top: 9px;
 }
 .my_product {
   font-size: 36px;
